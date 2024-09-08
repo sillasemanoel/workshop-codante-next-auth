@@ -34,5 +34,5 @@ export default async function register(formData: FormData) {
     },
   });
 
-  redirect("/");
+  redirect("/login-server");
 }

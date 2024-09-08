@@ -28,7 +28,7 @@ export default function RegisterForm() {
           <CardDescription>Crie uma conta gratuitamente</CardDescription>
         </CardHeader>
         <CardContent>
-          <form action={register} className="text-left ">
+          <form className="text-left" action={register}>
             <div className="space-y-6">
               <div className="grid w-full max-w-sm items-center gap-1.5">
                 <Label htmlFor="name">Nome</Label>
